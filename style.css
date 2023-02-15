@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Inter bold";
+    src: url(./fonts/Inter_Web/Inter-Bold.woff2) format("woff2"),
+         url(./fonts/Inter_Web/Inter-Bold.woff) format("woff");
+    font-weight: 900;
+}/* Уточнить как лучше подключать и куда размещать*/
+
+@font-face {
+    font-family: "Inter normal";
+    src: url(./fonts/Inter_Web/Inter-Regular.woff2) format("woff2"),
+         url(./fonts/Inter_Web/Inter-Regular.woff) format("woff");
+    font-weight: 400;
+}
+
+.page {
+font-family: "Inter normal", sans-serif;
+max-width: 1280px;
+background-color: #2A2C2F;
+margin: 0 auto;
+}
+
+
+/*---------header--------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 48px * 2);
+    margin: 0 auto;
+    min-height: 52px;
+    padding-top: 28px;
+}
+
+.lang-link {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+}
+
+.header__lang-link {
+  color: #fff;
+  margin-right: 18px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__lang-link:last-of-type {
+  text-decoration: none;
+  margin-right: 0;
+}
+
+/*---------lead---------*/
+
+.lead {
+
+}
