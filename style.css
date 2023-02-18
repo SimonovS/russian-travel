@@ -1,19 +1,26 @@
 @font-face {
-    font-family: "Inter bold";
-    src: url(./fonts/Inter_Web/Inter-Bold.woff2) format("woff2"),
-         url(./fonts/Inter_Web/Inter-Bold.woff) format("woff");
+    font-family: 'Inter bold';
+    src: url(./vendor/fonts/Inter_Web/Inter-Bold.woff2) format("woff2"),
+         url(./vendor/fonts/Inter_Web/Inter-Bold.woff) format("woff");
     font-weight: 900;
 }/* Уточнить как лучше подключать и куда размещать*/
 
 @font-face {
-    font-family: "Inter normal";
-    src: url(./fonts/Inter_Web/Inter-Regular.woff2) format("woff2"),
-         url(./fonts/Inter_Web/Inter-Regular.woff) format("woff");
+    font-family: 'Inter regular';
+    src: url(./vendor/fonts/Inter_Web/Inter-Regular.woff2) format("woff2"),
+         url(./vendor/fonts/Inter_Web/Inter-Regular.woff) format("woff");
     font-weight: 400;
 }
 
+@font-face {
+  font-family: 'Inter black';
+  src: url(./vendor/fonts/Inter_Web/Inter-Black.woff2) format("woff2"),
+       url(/vendor/fonts/Inter_Web/Inter-Black.woff) format("woff");
+  font-weight: 700;
+}
+
 .page {
-font-family: "Inter normal", sans-serif;
+font-family: "Inter regular", sans-serif;
 max-width: 1280px;
 background-color: #2A2C2F;
 margin: 0 auto;
@@ -43,6 +50,7 @@ margin: 0 auto;
   margin-right: 18px;
   font-size: 24px;
   line-height: 28px;
+  padding-bottom: 6px;
 }
 
 .header__lang-link:last-of-type {
@@ -53,5 +61,49 @@ margin: 0 auto;
 /*---------lead---------*/
 
 .lead {
+  width: calc(100% - 148px * 2);
+  margin: 0 auto;
+  margin-top: 56px;
+}
+
+
+.lead__title {
+  text-align: center;
+  font-size: 96px;
+  color: #fff;
+  font-family: 'Inter black';
+  line-height: 100px;
+  margin: 0 auto;
+  width: 720px;
+}
+
+.lead__subtitle {
+  text-align: center;
+  font-family: 'Inter regular';
+  margin: 0 auto;
+  padding-top: 32px;
+  color: #fff;
+  font-size: 30px;
+  line-height: 36px;
+  width: 640px;
+}
+
+.lead__image {
+  padding-top: 64px;
+  object-fit: cover;
+  width: 984px;
+  height: 615px;
+  box-sizing: content-box;
+}
+
+.lead__caption {
+  margin: 0;
+  padding-top: 6px;
+  color: #fff;
+  font-family: 'Inter regular';
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 
 }
