@@ -1,4 +1,4 @@
-.header__lang-link_item {
+.header__lang-link {
   margin-right: 18px;
   font-size: 24px;
   line-height: 28px;
@@ -6,7 +6,7 @@
   color: #fff;
 }
 
-.header__lang-link_item:last-of-type {
+.header__lang-link:last-of-type {
   text-decoration: none;
   margin-right: 0;
 }
