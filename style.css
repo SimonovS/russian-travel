@@ -341,7 +341,7 @@ color: #fff;
 
 .place {
   display: grid;
-  grid-template-columns: 460px auto;
+  grid-template-columns: 460px;
   grid-template-areas:
   "title website"
   "image paragraph";
@@ -362,6 +362,7 @@ color: #fff;
 }
 
 .place__website {
+  width: 100%; /**/
   grid-area: website;
   display: flex;
   flex-direction: column;
@@ -495,7 +496,13 @@ color: #fff;
   .place__title {
     font-size: 32px;
     line-height: 35px;
+    max-width: 288px;
+  }
+}
 
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .place__website {
+    max-width: 288px;
   }
 }
 
@@ -512,7 +519,13 @@ color: #fff;
     font-size: 16px;
     line-height: 26.08px;
     padding-bottom: 25px;
-    width: 288px;
+    max-width: 288px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .place__description {
+    max-width: 288px;
   }
 }
 
