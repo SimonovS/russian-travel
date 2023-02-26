@@ -1,5 +1,6 @@
 .intro__title {
-  font-family: 'Inter bold';
+  font-family: 'Inter';
+  font-weight: 700;
   font-size: 54px;
   line-height: 58px;
   letter-spacing: 0.4px;

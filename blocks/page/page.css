@@ -1,5 +1,6 @@
 .page {
-  font-family: "Inter regular", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   max-width: 1280px;
   background-color: #2A2C2F;
   margin: 0 auto;

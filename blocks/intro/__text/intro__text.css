@@ -3,7 +3,8 @@
   width: 690px;
   min-height: 208px;
   padding-top: 40px;
-  font-family: 'Inter regular';
+  font-family: 'Inter';
+  font-weight: 400;
   font-size: 16px;
   line-height: 26.08px;
 }
