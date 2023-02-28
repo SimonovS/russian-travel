@@ -4,7 +4,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .footer__link-column:last-of-type {
     margin-bottom: 0;
   }

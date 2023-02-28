@@ -14,7 +14,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   footer {
     width: calc(100% - 16px * 2);
     display: flex;
