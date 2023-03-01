@@ -42,6 +42,7 @@
 
 @media screen and (max-width: 767px) {
   .place {
+    grid-template-columns: auto;
     grid-template-areas:
     "title"
     "website"

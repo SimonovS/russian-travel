@@ -1,12 +1,11 @@
 .cover__subtitle {
   margin: 0 auto;
   text-align: center;
-  font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   padding-top: 32px;
-  width: 360px;
+  max-width: 360px;
 }
 
 @media screen and (max-width: 767px){
@@ -14,6 +13,6 @@
     font-size: 14px;
     line-height: 16px;
     padding-top: 16px;
-    width: 288px;
+    max-width: 288px;
   }
 }

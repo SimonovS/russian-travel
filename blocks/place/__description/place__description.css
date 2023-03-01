@@ -4,12 +4,13 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__description {
-    width: 352px;
+    max-width: 352px;
   }
 }
 
 @media screen and (max-width: 767px){
   .place__description {
-    max-width: 288px;
+    max-width: calc(100% - 16px * 2);
+    margin: 0 auto;
   }
 }
