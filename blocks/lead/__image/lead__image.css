@@ -15,7 +15,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
   .lead__image {
-    width: 100%;
     padding-top: 56px;
   }
 }
@@ -24,6 +23,5 @@
   .lead__image {
     padding-top: 40px;
     max-height: 200px;
-    width: 100%;
   }
   }
